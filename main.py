@@ -1,5 +1,7 @@
-s = "12345"
-summa = 0
-for x in s:
-    summa = summa + int(x)
-print(summa)
+# перевод чисел из 10 в 2
+print(bin(201))
+print(bin(192))
+# перевод из 10 в 2
+print(int("11001001", 2))
+# побитовая конъюнкция
+print(170 & 248)
